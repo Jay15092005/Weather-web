@@ -29,7 +29,7 @@ if menu_selection == "City Weather":
     if current_location:
         # Get user's current location using a geolocation API
         # Code for getting current location goes here
-        current_city = "Ahmedabad"
+        current_city = "Surat"
     if st.button("Get Weather"):
         url = f"http://api.openweathermap.org/data/2.5/weather?q={current_city}&appid={api_key}"
         

@@ -53,19 +53,19 @@ if menu_selection == "City Weather":
 
             # Display weather condition image/icon
             if weather == "Clear":
-                st.image("", caption="Clear Sky")
+                st.image("wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg", caption="Clear Sky")
             elif weather == "Clouds":
-                st.image("", caption="Cloudy Weather")
+                st.image("wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg", caption="Cloudy Weather")
             elif weather == "Rain":
-                st.image("", caption="Rainy Weather")
+                st.image("wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg", caption="Rainy Weather")
             elif weather == "Snow":
-                st.image("", caption="Snowy Weather")
+                st.image("wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg", caption="Snowy Weather")
             elif weather == "Thunderstorm":
-                st.image("", caption="Thunderstorm")
+                st.image("wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg", caption="Thunderstorm")
             elif weather == "Mist":
-                st.image("", caption="Misty Weather")
+                st.image("wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg", caption="Misty Weather")
             elif weather == "Smoke":
-                st.image("", caption="Smoky Weather")
+                st.image("wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg", caption="Smoky Weather")
             
 
             map_link = f"https://www.google.com/maps/place/{current_city}"
